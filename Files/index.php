@@ -1,6 +1,6 @@
 <?php
 echo "Here are our files";
-$path = ".";
+$path = "http://files.gtaind.com/files/";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
