@@ -17,7 +17,7 @@ a {
     
 #kotak {
     position: absolute;
-    width: 480px;
+    width: 80%;
     height: 555px;
     background: rgba(255,255,255,0.8);
     top: 35%;
