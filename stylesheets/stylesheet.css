@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
+  min-width:900px;
   line-height: 1.5;
   color: #373F43; }
 
