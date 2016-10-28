@@ -61,6 +61,17 @@
 	border-radius:2px;
 }
 
+#petunjuk {
+	position: absolute;
+    bottom: -9.5vh;
+	left:40vw;
+	width:23vw;
+	height:6vh;
+	background:rgba(255,255,255,0.2);
+	font-size:35px;
+	cursor: pointer;
+}
+
 #pil1 {
 	background:url('../image/p1.jpg');
 }
@@ -85,10 +96,26 @@
 	filter: grayscale(100%);
 }
 
+#nama1,#nama2,#nama3 {
+	display:none;
+	text-align:center;
+	margin-top:72vh;
+	width:96%;
+	color:white;
+	background:rgba(0,0,0,0.5);
+	padding:0.4vw;
+	font-size:3vw;
+}
+
 #pil1:hover,#pil2:hover,#pil3:hover{
 	filter: grayscale(0%);
 	box-shadow: 0px 2px 8px rgba(44, 252, 218,0.7);
+	
 }
+
+#pil1:hover #nama1 { display: inline-block; }
+#pil2:hover #nama2 { display: inline-block; }
+#pil3:hover #nama3 { display: inline-block; }
 
 #box2 {
 	float:right;
